@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+import webbrowser
 
 st.set_page_config(page_title='Learn Genetics', page_icon="📖", layout="wide")
 
@@ -22,7 +23,9 @@ with tab1:
         st.write("Learn Genetics in 1 hour with 25+ simple-to-use rules and guidelines — tons of amazing genetic resources included!")
         st.markdown("`Free Course` (122 ratings) 26 students 🎥 2 hours of on-demand video")
         st.write("🌐 language: English, Nepali")
-        st.button("Enroll Now")
+        url = 'https://biotechnology4world.blogspot.com/2022/12/the-power-of-genetic-engineering-latest.html'
+        if st.button('Enroll now'):
+            webbrowser.open_new_tab(url)
 
 
 #tabs
