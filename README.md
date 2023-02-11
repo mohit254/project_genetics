@@ -1,6 +1,6 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Learn Genetics
 ```
-⬆️ (Replace above with your app's name)
+
 ```
 
 Description of the app ...
