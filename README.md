@@ -3,5 +3,5 @@ The "Learn Genetics" tutorial page is a comprehensive resource for anyone intere
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://starter-kit.streamlitapp.com/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mohit254-project-genetics-learn-gen-xjq0a7.streamlit.app/?fbclid=IwAR1fww9zqDe9kUC-2PbLaCwQvntZQI9GuR-R7vTscauTWaRxBp-dwzgH8ec)
 
