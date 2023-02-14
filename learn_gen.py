@@ -5,7 +5,7 @@ import webbrowser
 st.set_page_config(page_title='Learn Genetics', page_icon="📖", layout="wide")
 
 #A banner, could be ads or logo
-ad_banner = Image.open("assets\DNAban.jpg")
+ad_banner = Image.open("assets/DNAban.jpg")
 st.image(ad_banner)
 
 #tab for navigation
@@ -16,7 +16,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Home", "Our Courses", "Help", "Contact us"])
 with tab1:
     col1, col2 = st.columns(2)
     with col1:
-        video_preview = Image.open("assets\preview.png")
+        video_preview = Image.open("assets/preview.png")
         st.image(video_preview)
     with col2:
         st.header("Genetics for Biologist: Learn Genetics the easy way!")
@@ -100,7 +100,7 @@ with colx:
     st.write("📖 Learning never exhausts the mind.")
 
 with coly:
-    banner = Image.open("assets\dvert.jpg","r")
+    banner = Image.open("assets/dvert.jpg","r")
     st.image(banner)
     
 
